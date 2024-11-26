@@ -10,7 +10,7 @@ export default function Register({ role }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('https://youtube-back-blue.vercel.app/user/signup', {
+      const response = await fetch('https://youtube3backend.vercel.app/user/signup', {
           method: 'POST',
           headers: {
               'Content-Type': 'application/json',
