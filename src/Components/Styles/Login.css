@@ -1,0 +1,22 @@
+.login-container {
+  background-color: #4caf50; /* Fondo verde */
+  padding: 20px;
+  border-radius: 10px;
+  color: white; /* Texto blanco */
+  width: 300px;
+  margin: auto;
+}
+
+.login-button {
+  background-color: #ff5722; /* Botón naranja */
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #e64a19; /* Más oscuro al pasar el mouse */
+}
